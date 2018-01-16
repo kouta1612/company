@@ -1,0 +1,76 @@
+body {
+	font-family: "Meiryo UI";
+}
+.main-wrapper {
+	margin: 0 auto;
+	width: 400px;
+	text-align: center;
+}
+.main-header {
+	background-color: #66CCFF;
+    color: white;
+    margin-bottom: 1px;
+    padding: 10px 0;
+}
+.main-header h1 {
+	font-size: 22px;
+}
+.main-form {
+    border: 1px solid #DDDDDD;
+    padding: 40px 0;
+}
+.main-text {
+    margin-bottom: 50px;
+}
+.main-text label {
+	margin-right: 10px;
+	display: inline-block;
+	width: 33px;
+}
+.main-text input, textarea {
+	width: 230px;
+}
+.address {
+	position: relative;
+	margin-bottom: 60px;
+}
+.addressBtn {
+	position: absolute;
+	top: 38px;
+	left: 45px;
+}
+.title {
+	margin-bottom: 50px;
+}
+.sentence textarea {
+	vertical-align: top;
+	resize: none;
+}
+.btn {
+	display: inline-block;
+}
+.btn button {
+    border-radius: 5px;
+    color: white;
+    background-color: #FF8856;
+    opacity: 0.7;
+}
+.btnTop button {
+    width: 60px;
+    height: 30px;
+}
+.btnBottom button {
+    width: 106px;
+    height: 51px;
+}
+.cancel {
+	margin-right: 20px;
+}
+.save {
+	margin-right: 20px;
+}
+.btn button:hover {
+	background-color: #FF8856;
+    opacity: 0.6;
+    cursor: pointer;
+}
